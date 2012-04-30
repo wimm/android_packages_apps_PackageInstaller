@@ -44,8 +44,8 @@
     <string name="app_not_found_dlg_title">Application not found</string>
     <string name="app_not_found_dlg_text"> The application was not
 found in the list of installed applications.</string>
-    <string name="uninstall_application_question">Uninstall application?</string>
-    <string name="uninstall_update_question">Uninstall update?</string>
+    <string name="uninstall_application_question">Uninstall?</string>
+    <string name="uninstall_update_question">Uninstall?</string>
     <string name="uninstall_application_text">This application will be uninstalled.</string>
     <string name="uninstall_update_text">The application update will be uninstalled. You can still use the factory version of the application.</string>
     <string name="uninstalling">Uninstalling\u2026</string>

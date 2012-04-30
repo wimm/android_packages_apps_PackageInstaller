@@ -124,13 +124,10 @@ public class UninstallerActivity extends Activity implements OnClickListener,
             //set view
             setContentView(R.layout.uninstall_confirm);
             TextView question = (TextView) findViewById(R.id.uninstall_question);
-            TextView confirm = (TextView) findViewById(R.id.uninstall_confirm_text);
             if ((mAppInfo.flags & ApplicationInfo.FLAG_UPDATED_SYSTEM_APP) != 0) {
                 question.setText(R.string.uninstall_update_question);
-                confirm.setText(R.string.uninstall_update_text);
             } else {
                 question.setText(R.string.uninstall_application_question);
-                confirm.setText(R.string.uninstall_application_text);
             }
             PackageUtil.initSnippetForInstalledApp(this, mAppInfo, R.id.app_snippet);
             //initialize ui elements
